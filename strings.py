@@ -112,3 +112,30 @@ a = "Hello"
 b = "World"
 c = a + " " + b
 print(c)
+
+
+
+
+
+# F-Strings to combine strings and numbers 
+
+age = 36
+txt = f"My name is John, I am {age}"
+print(txt)
+
+price = 59
+txt = f"The price is {price} dollars"
+print(txt)
+
+# {variable} is a placeholder
+
+# placeholder can include a modifier to format the value 
+
+price = 59
+txt = f"The price is {price:.2f} dollars" # display the price with 2 decimals
+print(txt)
+
+# it can also contain math operations
+
+txt = f"The price is {20 * 59} dollars"
+print(txt)
