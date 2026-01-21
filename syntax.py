@@ -1,2 +1,3 @@
-x = 5
-y = "Hello, World!"
+print("Hello World!")
+print("Have a good day.")
+print("Learning Python is fun!")
