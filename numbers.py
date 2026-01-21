@@ -1,3 +1,6 @@
+import random
+
+
 x = 1    # int
 y = 2.8  # float
 z = 1j   # complex
@@ -71,3 +74,7 @@ print(c)
 print(type(a))
 print(type(b))
 print(type(c))
+
+# Random number from 1 to 9
+
+print(random.randrange(1, 10))
