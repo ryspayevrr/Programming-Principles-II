@@ -52,3 +52,38 @@ print(x + y) # for integers
 x = 5
 y = "John"
 print(x, y) # output variables without errors
+
+
+# global variables
+
+x = "awesome"   # assigned outside a function, so it's global
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc()
+
+# local and global variables
+
+x = "awesome"  # global, works everywhere outside a function
+
+def myfunc():
+  x = "fantastic"  # local, works only inside myfunc()
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
+
+
+# how to change global var inside a function
+
+x = "awesome"
+
+def myfunc():
+  global x      # keyword 'global'
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
