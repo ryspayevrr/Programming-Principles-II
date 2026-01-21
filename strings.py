@@ -44,3 +44,26 @@ if "free" in txt:
 txt = "The best things in life are free!"
 if "expensive" not in txt:
     print("No, 'expensive' is NOT present.")
+
+
+
+
+# Slicing 
+
+b = "Hello, World!"
+print(b[2:5]) # from index 2 to 4 (5 is not included)
+
+# Slicing from the start 
+
+b = "Hello, World!"
+print(b[:5])  # from start to 5 (not included)
+
+# Slicing till the end
+
+b = "Hello, World!"
+print(b[2:])  # from 2 to the end
+
+# Negative indexing to start from the end
+
+b = "Hello, World!"
+print(b[-5:-2])     # -5 is "o" in "World!" and -2 ("d") is not included
