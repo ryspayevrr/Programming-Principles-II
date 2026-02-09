@@ -23,9 +23,17 @@ fullName("Napoleone", "Bonaparte")
 
 
 def greetingSynonyms(default = "Hello"):                 # default value of parameter
-    print(hello, "is a way to greet someone.")
+    print(default, "is a way to greet someone.")
 
 greet = str(input("What word can describe a greeting?: "))
 
 greetingSynonyms(greet)
 greetingSynonyms()                # outputs default value
+
+def func(persons):
+  print("Name:", person["name"])
+  print("Age:", person["age"])
+
+person = {"name": "Alisher", "age": 18}
+
+func(person)
