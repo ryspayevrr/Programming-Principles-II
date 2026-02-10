@@ -4,7 +4,7 @@ for c in cars:
 
 print("\n")
 print("Let's spell your name by letters!")
-name = str(input())
+name = str(input("Your name: "))
 
 for char in name:
     print(char, end=" ")
