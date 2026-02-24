@@ -13,6 +13,7 @@ for j in squares(n):
     print(j)
 
 
+print("\n")
 
 
 # 2
@@ -37,7 +38,7 @@ for _ in evenNumbers(n):
         print(_, end=", ")
 
 
-
+print("\n")
 
 
 # 3
@@ -49,13 +50,13 @@ def divisible_by_3_and_4(n):
         if i % 12 == 0:
             yield i
 
-n = int(input())
+n = int(input("Enter a number: "))
 
 for num in divisible_by_3_and_4(n):
     print(num, end=" ")
 
 
-
+print("\n")
 
 # 4
 
@@ -70,7 +71,7 @@ for j in squares2(a, b):
     print(j, end=" ")
 
 
-
+print("\n")
 
 
 # 5
