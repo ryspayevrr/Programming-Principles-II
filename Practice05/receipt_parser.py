@@ -57,7 +57,7 @@ print("\n")
 
 if "Банковская карта" in txt:
     payment_method = "Банковская карта"
-elif "Наличные" in text:
+elif "Наличные" in txt:
     payment_method = "Наличные"
 else:
     payment_method = "Unknown"
