@@ -19,7 +19,7 @@ print("\n")
 
 # 2
 
-product_pattern = r'\d+\.\n(.+?)\n\d+,\d{3}\s+x'
+product_pattern = r'\d+\.\n(.+?)\n\d+,\d{3}\s'
 products = re.findall(product_pattern, txt, re.DOTALL)
 
 
