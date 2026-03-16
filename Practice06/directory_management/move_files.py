@@ -1,4 +1,4 @@
 import shutil
 
 
-shutil.move("sample.txt", "parent/child/grandchild")
+shutil.move("sample.txt", "parent/child/sample.txt")
